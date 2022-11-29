@@ -1,4 +1,4 @@
-nnnnnn
+recipeの文字を消せるように頑張ります
 
 # Nuxt 3 Minimal Starter
 
