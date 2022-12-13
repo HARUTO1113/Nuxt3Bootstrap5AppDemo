@@ -29,11 +29,14 @@
     <div class="row row-cols-1 row-cols-sm-2 row-cols-md-4">
       <div class="col border p-2">
         <div class="mb-2"><span class="badge bg-secondary">1</span></div>
+        <ul>
+                <li v-for="item in data.material">{{ item.text }}</li>
+
         <p>{{t1}}</p>
       </div>
       <div class="col border p-2">
         <div class="mb-2"><span class="badge bg-secondary">2</span></div>
-        <p>{{t2}}。</p>
+        <p>{{t2}}</p>
       </div>
       <div class="col border p-2">
         <div class="mb-2"><span class="badge bg-secondary">3</span></div>
@@ -59,12 +62,12 @@
       </div>
       <div class="col border p-2">
         <div class="mb-2"><span class="badge bg-secondary">8</span></div>
-        <p>160度で５分以上、様子を見ながら、火が通ったら、一度上げて、今度は180～200度でカリっと仕上げ、完成です☆</p>
+        <p>160度で5分以上、様子を見ながら、火が通ったら、一度上げて、今度は180～200度でカリっと仕上げ、完成です☆</p>
       </div>
       <div class="col border p-2">
         <div class="mb-2"><span class="badge bg-secondary">9</span></div>鶏肉の1枚はサイズにばらつきがある為、2～3枚という記載に変更しました。
       </div>
-
+      </ul>
     </div>
     <ol>
 
@@ -92,5 +95,5 @@
   </div>
 </template>
 <script setup>
- const data = useRecipe()
+const data = useRecipe()
 </script>
