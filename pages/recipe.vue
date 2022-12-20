@@ -13,7 +13,7 @@
         </div>
         <div class="col-md-8">
           <div class="card-body">
-            <h5 class="card-title">{{zairyou}}</h5>
+            <h5 class="card-title">{{data.zairyou}}</h5>
             <div class="card-text">
               <ul>
                 <li v-for="item in data.material">{{ item.text }}</li>
@@ -25,40 +25,40 @@
     </div>
   </div>
   <div class="container mb-5">
-    <h2>{{tukurikata}}</h2>
+    <h2>{{data.tukurikata}}</h2>
     <div class="row row-cols-1 row-cols-sm-2 row-cols-md-4">
       <div class="col border p-2">
         <div class="mb-2"><span class="badge bg-secondary">1</span></div>
         <ul>
                 <li v-for="item in data.material">{{ item.text }}</li>
-
-        <p>{{t1}}</p>
+        </ul>
+        <p>{{data.t1}}</p>
       </div>
       <div class="col border p-2">
         <div class="mb-2"><span class="badge bg-secondary">2</span></div>
-        <p>{{t2}}</p>
+        <p>{{data.t2}}</p>
       </div>
       <div class="col border p-2">
         <div class="mb-2"><span class="badge bg-secondary">3</span></div>
-        <p>{{t3}}</p>
+        <p>{{data.t3}}</p>
       </div>
       <div class="col border p-2">
         <div class="mb-2"><span class="badge bg-secondary">4</span></div>
-        <p>{{t4}}</p>
+        <p>{{data.t4}}</p>
       </div>
       <div class="col border p-2">
         <div class="mb-2"><span class="badge bg-secondary">5</span></div>
-        <p>{{t5}}<br />
-        {{t6}}</p>
+        <p>{{data.t5}}<br />
+        {{data.t6}}</p>
       </div>
       <div class="col border p-2">
         <div class="mb-2"><span class="badge bg-secondary">6</span></div>
-        <p>{{t7}}</p>
+        <p>{{data.t7}}</p>
       </div>
       <div class="col border p-2">
         <div class="mb-2"><span class="badge bg-secondary">7</span></div>
-        <p>{{t8}}<br />
-          {{t9}}</p>
+        <p>{{data.t8}}<br />
+          {{data.t9}}</p>
       </div>
       <div class="col border p-2">
         <div class="mb-2"><span class="badge bg-secondary">8</span></div>

@@ -1,7 +1,7 @@
 # 目標
-自分だけのサイトが作れるように頑張ります
+二月までに自分だけのサイトが作れるように頑張ります
 # 今すぐに達成すべき課題
-recipeの文字を消せるように頑張ります
+今日中にrecipeの文字を消せるように頑張ります
 # Nuxt 3 Minimal Starter
 
 Look at the [nuxt 3 documentation](https://v3.nuxtjs.org) to learn more.
